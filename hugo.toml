@@ -1,0 +1,23 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Beyond2Void'
+theme = 'PaperMod'
+
+[params]
+ShowShareButtons = true
+ShowReadingTime = true
+
+  [params.homeInfoParams]
+  Title = "Hi there wave"
+  Content = "Can be Info, links, about..."
+
+  [[params.socialIcons]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/minyexu/"
+
+  [[params.socialIcons]]
+  name = "GitHub"
+  url = "https://github.com/beyond2void"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]

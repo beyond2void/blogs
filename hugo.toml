@@ -6,10 +6,11 @@ theme = 'PaperMod'
 [params]
 ShowShareButtons = true
 ShowReadingTime = true
+enableEmoji = true
 
   [params.homeInfoParams]
-  Title = "Hi there wave"
-  Content = "Can be Info, links, about..."
+  Title = "&#x1f44b;Welcome to Minye's Blog."
+  Content = "Hi, this is Minye. I'm documenting my learning notes and life stories here."
 
   [[params.socialIcons]]
   name = "LinkedIn"
@@ -21,3 +22,13 @@ ShowReadingTime = true
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
+
+[menus]
+  [[menus.main]]
+    name = 'Posts'
+    pageRef = '/'
+    weight = 1
+  [[menus.main]]
+    name = 'Search'
+    pageRef = '/search'
+    weight = 2

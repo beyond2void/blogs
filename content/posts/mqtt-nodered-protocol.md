@@ -1,5 +1,5 @@
 +++
-date = 2024-02-02T04:14:54-08:00
+date = 2024-12-02T04:14:54
 draft = false
 title = 'Build a MQTT pipeline using Nodered in aws platform'
 weight = 10

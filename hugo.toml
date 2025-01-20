@@ -32,3 +32,11 @@ home = [ "HTML", "RSS", "JSON" ]
     name = 'Search'
     pageRef = '/search'
     weight = 2
+  [[menus.main]]
+    name = 'Archive'
+    pageRef = '/archive'
+    weight = 3
+  [[menus.main]]
+    name = 'Tags'
+    pageRef = '/tags'
+    weight = 4
